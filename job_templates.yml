@@ -1,0 +1,11 @@
+---
+controller_templates:
+ - name: F5 / Update Router
+   execution_environment: seed_ee
+   instance_groups:
+     - default
+   inventory: Demo Inventory
+   project: Partner - F5 Playbooks
+   playbook: hello_f5.yml
+   job_tags: F5
+   labels: F5
